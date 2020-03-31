@@ -628,6 +628,36 @@ let commandsList = [
         description: 'Sets the drag mode of the sprite to either draggable (true) or not draggable (false).',
         newgroup: true,
     },
+
+    //operators
+    {
+        command: 'add',
+        type: 'reporter',
+        category: 'operators',
+        autocomplete: '() + ()',
+        description: 'Adds two numbers and returns the sum.'
+    },
+    {
+        command: 'subtract',
+        type: 'reporter',
+        category: 'operators',
+        autocomplete: '() - ()',
+        description: 'Subtracts the second number from the first and returns the difference.'
+    },
+    {
+        command: 'multiply',
+        type: 'reporter',
+        category: 'operators',
+        autocomplete: '() * ()',
+        description: 'Multiplies two numbers and returns the product.'
+    },
+    {
+        command: 'divide',
+        type: 'reporter',
+        category: 'operators',
+        autocomplete: '() / ()',
+        description: 'Divides the first number by the second number and returns the quotient.'
+    }
 ]
 
 let categoriesList = [
@@ -661,4 +691,9 @@ let categoriesList = [
         name: 'Sensing',
         color: '#4cbfe6',
     },
+    {
+        category: 'operators',
+        name: 'Operators',
+        color: '#40bf4a'
+    }
 ]
